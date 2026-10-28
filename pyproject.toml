@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "naillan8-kvcache_jd135"
+version = "0.1.0"
+description = "把输入按语义边界切成独立单元，逐单元核对KV Cache 与显存优化工程师·智能体的任务终止条件相关的特征并标出命中位置"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "naillan8" }]
+keywords = ["analysis", "observability", "evaluation", "rag"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://naillan8.github.io"
+Repository = "https://github.com/naillan8/kvcache_jd135"
+Issues = "https://github.com/naillan8/kvcache_jd135/issues"
+
+[project.scripts]
+kvcache_jd135 = "kvcache_jd135:main"
+
+[tool.setuptools]
+py-modules = ["kvcache_jd135"]

@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "naillan8-kvcache_jd135"
+name = "naillan8-agent_termination_condition_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对KV Cache 与显存优化工程师·智能体的任务终止条件相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://naillan8.github.io"
-Repository = "https://github.com/naillan8/kvcache_jd135"
-Issues = "https://github.com/naillan8/kvcache_jd135/issues"
+Repository = "https://github.com/naillan8/agent_termination_condition_segmenter"
+Issues = "https://github.com/naillan8/agent_termination_condition_segmenter/issues"
 
 [project.scripts]
-kvcache_jd135 = "kvcache_jd135:main"
+agent_termination_condition_segmenter = "agent_termination_condition_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["kvcache_jd135"]
+py-modules = ["agent_termination_condition_segmenter"]
